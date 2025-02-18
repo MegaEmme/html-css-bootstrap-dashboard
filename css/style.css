@@ -1,0 +1,7 @@
+.mike-placeholder{
+    background-color: white;
+}
+
+.mike-placeholder::placeholder{
+     color: darkgray;
+}
