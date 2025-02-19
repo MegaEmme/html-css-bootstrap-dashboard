@@ -129,35 +129,44 @@
 
             <label for="book-title" class="fw-medium mb-2">Titolo</label>
 
-            <input type="text" class="form-control mb-2" id="book-title" placeholder="Inserisci il titolo del libro">
+            <input type="text" class="form-control mb-1" id="book-title" placeholder="Inserisci il titolo del libro">
 
             <h3 class="ita-title mb-3">Titolo versione italiana</h3>
 
+            <div class="row">
 
+                <div class="col-12 col-md-4">
 
+                    <label for="gender" class="fw-medium mb-2">Genere</label>
 
+                    <select class="form-select fw-medium mb-3" id="gender" aria-label="Default select example">
+        
+                        <option selected>Scegli il genere</option>
+                        <option value="1">Avventura</option>
+                        <option value="2">Fantasy</option>
+                        <option value="3">Saggistica</option>
+        
+                    </select>
 
-            
+                </div>
 
-            <label for="gender" class="fw-medium mb-2">Genere</label>
+                <div class="col-12 col-md-4">
 
-            <select class="form-select fw-medium" id="gender" aria-label="Default select example">
+                    <label for="book-publication-year" class="fw-medium mb-2">Anno di Pubblicazione</label>
 
-                <option selected>Scegli il genere</option>
-                <option value="1">Avventura</option>
-                <option value="2">Fantasy</option>
-                <option value="3">Saggistica</option>
+                    <input type="text" class="form-control mb-3" id="book-publication-year" placeholder="Inserisci l'anno">
 
-            </select>
+                </div>
 
+                <div class="col-12 col-md-4">
 
+                    <label for="isbn#-code" class="fw-medium mb-2">ISBN#</label>
 
+                    <input type="text" class="form-control mb-4" id="isbn#-code" placeholder="Inserisci il codice ISBN#">
 
+                </div>
 
-
-
-
-
+            </div>
 
             <hr>
 
@@ -181,7 +190,7 @@
 
             </div>
 
-            <a href="index.html" class="btn btn-primary" role="button">Aggiungi Libro</a>    
+            <a href="index.html" class="btn btn-primary mb-4" role="button">Aggiungi Libro</a>    
 
         </div>
 
