@@ -5,3 +5,9 @@
 .mike-placeholder::placeholder{
      color: darkgray;
 }
+
+.ita-title{
+    font-size: .8rem;
+    color: gray;
+    font-weight: 500;
+}
